@@ -1,0 +1,72 @@
+/* Reset CSS */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+html {
+    font-family: 'Lato', sans-serif;
+}
+/* Header */
+header {
+    display: flex;
+    background-color: #202020;
+    justify-content: space-between;
+    height: 46px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar {
+
+}
+
+.list {
+    display: flex;
+    height: 46px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.list__item {
+    padding: 0 24px;
+    display: flex;
+    align-items: center;
+}
+
+.list__item a {
+    text-decoration: none;
+    color: white;
+    text-transform:uppercase ;
+}
+
+.list__item:hover {
+    background-color: tomato;
+}
+
+.searchbar {
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.searchbar i {
+    padding: 0 24px;
+}
+
+.searchbar:hover {
+    background: tomato;
+}
+
+.content {
+    margin-top: 46px;
+}
+
+footer {
+
+}
